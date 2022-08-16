@@ -38,7 +38,7 @@ input[type="number"]{
     position: absolute;
     right: 1rem;
     top: 1rem;
-    background-color: red;
+    background-color: rgb(89, 89, 180);
     color: white;
 }
 input[type="number"]::placeholder{
