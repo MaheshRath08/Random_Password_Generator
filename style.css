@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #242424;
+}
+.container{
+    padding: 8rem;
+    background-color: #e5f1ea;
+    border-radius: 1rem;
+    position: relative;
+}
+input[type="text"]{
+    width: 85%;
+    padding: 0.5rem ;
+    font-size: 1.3rem;
+    outline: none;
+    border: 2px solid #8b8b8b;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px black;
+}
+input[type="number"]{
+    height: 20px;
+    padding: 0.7rem;
+    width: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #242424;
+    box-shadow: 0 0 5px 1px black;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background-color: red;
+    color: white;
+}
+input[type="number"]::placeholder{
+    font-size: 0.7rem;
+}
+#generate{
+    display: block;
+    font-size: 1.1rem;
+    padding: 0.7rem 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: #242424;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 5px 1px #242424;
+}
+#generate:hover{
+    background-color: blue;
+}
+#copy{
+    font-size: 1.5rem;
+    color: #242424;
+    padding: 0.6rem 0.5rem ;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px black;
+    background-color: white;
+}
+#copy:hover{
+    background-color: rgb(228, 206, 206);
+}
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #242424;
+}
