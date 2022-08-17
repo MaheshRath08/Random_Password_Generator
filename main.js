@@ -19,6 +19,18 @@ generate.addEventListener("click", ()=>{
 copy.addEventListener("click", ()=>{
     passwordEl.select()
     passwordEl.setSelectionRange(0, 99999)
-
+    
     navigator.clipboard.writeText(passwordEl.value)
+    notif()
 })
+
+function notif(){
+    let notif = document.createElement("div")
+    document.body.appendChild(notif)
+    notif.classList.add("noti")
+    notif.innerHTML = "PASSWORD COPIED"
+    notif.style.display = "block"
+    setTimeout(()=>{
+        notif.style.display = "none"
+    }, 1500)
+}

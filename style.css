@@ -79,3 +79,17 @@ h1{
     color: goldenrod;
     text-shadow: 1px 2px 3px black;
 }
+.noti{
+    padding: 0.5rem;
+    text-align: center;
+    color: #555454;
+    background-color: white;
+    font-style: italic;
+    border-radius: 10px;
+    box-shadow: 0 0 10px goldenrod;
+    position: absolute;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-50%);
+    display: none;
+}
