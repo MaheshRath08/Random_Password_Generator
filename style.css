@@ -13,6 +13,7 @@ body{
 .container{
     padding: 8rem;
     background-color: #e5f1ea;
+    background-color: rgb(225, 162, 233);
     border-radius: 1rem;
     position: relative;
     box-shadow: 0 0 10px black;
