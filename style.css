@@ -12,8 +12,8 @@ body{
 }
 .container{
     padding: 8rem;
-    background-color: #e5f1ea;
-    background-color: rgb(225, 162, 233);
+    /* background-color: #e5f1ea; */
+    background-color: #e1a2e9;
     border-radius: 1rem;
     position: relative;
     box-shadow: 0 0 10px black;
@@ -40,7 +40,9 @@ input[type="number"]{
     position: absolute;
     right: 1rem;
     top: 1rem;
-    background-color: rgb(234, 234, 250);
+    background-color: #f8c2ff;
+    color: red;
+    text-shadow: 0 0 2px yellow;
 }
 input[type="number"]::placeholder{
     font-size: 0.7rem;
